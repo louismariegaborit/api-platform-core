@@ -79,7 +79,6 @@ final class ValidateListener
         if (
             $controllerResult instanceof Response
             || $request->isMethodSafe()
-            || $request->isMethod('DELETE')
         ) {
             return;
         }

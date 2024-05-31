@@ -84,7 +84,7 @@ final class Delete extends HttpOperation implements DeleteOperationInterface
         ?int $urlGenerationStrategy = null,
         ?bool $read = null,
         ?bool $deserialize = null,
-        ?bool $validate = null,
+        ?bool $validate = false,
         ?bool $write = null,
         ?bool $serialize = null,
         ?bool $fetchPartial = null,
